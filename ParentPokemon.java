@@ -21,6 +21,6 @@ public class ParentPokemon {
 
     // Parent behaviour
     public void attack() {
-        System.out.println(name + " attacks with a basic move!");
+        System.out.println(name + " attacks with a basic move!<parent message>");
     }
 }

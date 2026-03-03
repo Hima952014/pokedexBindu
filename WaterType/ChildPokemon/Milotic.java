@@ -17,7 +17,9 @@ public class Milotic extends ParentPokemon {
     // ---------------- OVERRIDING ----------------
     @Override
     public void attack() {
-        System.out.println(getName() + " uses Hydro Pulse with elegance!");
+        super.attack();   // calls ParentPokemon.attack()
+
+        System.out.println(getName() + " uses Hydro Pulse with elegance!< child override message");
     }
 
     // Unique behaviour

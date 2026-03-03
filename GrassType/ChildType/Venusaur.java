@@ -10,6 +10,8 @@ public class Venusaur extends ParentPokemon {
 
     @Override
     public void attack() {
-        System.out.println(getName() + " uses Solar Beam!");
+        super.attack();   // calls ParentPokemon.attack()
+
+        System.out.println(getName() + " uses Solar Beam!<child override> ");
     }
 }
