@@ -21,7 +21,7 @@ public class Charizard {
 	{
 	System.out.println(Name +" got a powerful roar.");
 	}
-	public void runSpeed ()
+	public void displayrunLevel ()
 	{
 	System.out.println(Name +" can run "+ Level*Level + " meters per secound - Super Faster.");
 	}
@@ -29,6 +29,10 @@ public class Charizard {
 	public void hitpoints ()
 	{
 	System.out.println(Name +" got Hitpoints "+ HP +".");
-	}
 
+	}
+public int getrunLevel (){
+
+return Level* HP ;
+}
 }
