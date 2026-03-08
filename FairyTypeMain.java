@@ -1,3 +1,5 @@
+package pokedexBindu;
+
 import Fairytype.*;
 
 public class FairyTypeMain {

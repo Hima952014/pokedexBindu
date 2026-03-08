@@ -1,3 +1,7 @@
+package pokedexBindu;
+
+
+
 import pokedexBindu.WaterType.Blastoise;
 import pokedexBindu.WaterType.Gyarados;
 import pokedexBindu.WaterType.ChildPokemon.Milotic;

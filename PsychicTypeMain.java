@@ -1,3 +1,4 @@
+package pokedexBindu;
 import PsychicType.*;
 
 public class  PsychicTypeMain {
